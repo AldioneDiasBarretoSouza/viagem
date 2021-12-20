@@ -1,0 +1,75 @@
+.tema {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+    width: 100%;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, -0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url('../imagens/AGENCIA.jpg');
+    background-size: cover;
+    background-position: center;
+}
+ 
+  section {
+    width: 100%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 100vh;
+  }
+
+  section:nth-of-type(2n) {
+    background-color: #FE4B74;
+  }
+  
+  .intro {
+    height: 90vh;
+  }
+
+  .content-space {
+      padding: 0 7%;
+  }
+  
+  .content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  h1 {
+    font-size: 3em;
+    display: block;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  
+  p {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #C3CAD9;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+    
+  footer {
+    padding: 1% 5%;
+    text-align:center;
+    background-color: #373B44;
+    color: white;
+    
+  }
+
+  footer a {
+    color: #FE4B74;
+    font-weight: 500;
+    text-decoration: none;
+  }

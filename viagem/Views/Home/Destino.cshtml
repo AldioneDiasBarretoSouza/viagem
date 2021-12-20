@@ -1,0 +1,40 @@
+﻿@model viagem.Models.Destino
+
+@{
+    ViewData["Title"] = "Destino";
+}
+
+<body>
+    <section id="destino">
+        <div class="content">
+            <div class="content-space">
+                <h1>Destino.</h1>
+                <div class="container">
+                    <form asp-action="Contato" method="post" class="row">
+                        <div class="col-3 form-group">
+                            <label class="sr-only control-label">Destino</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Digite o destino" asp-for="LocalViagem">
+                        </div>
+
+                        <div class="col-3 form-group">
+                            <label class="sr-only control-label">Data de Ida e volta</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Digite a data de ida" asp-for="DataIda">
+                        </div><div class="col-3 form-group">
+                           
+                            
+                            <label class="sr-only control-label">nome</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Digite o seu nome" asp-for="Nome">
+                        </div>
+                        <div class="col-3 form-group">
+                            <label class="sr-only control-label">Idade</label>
+                            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Digite sua Idade" asp-for="Idade">
+                        </div>
+                        <div class="col-3">
+                            <button type="submit" value="Submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
